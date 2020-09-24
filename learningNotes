@@ -1,0 +1,12 @@
+AdvanceObjects & Functions:
+Objects are created in two ways 1) by using a function constructor 2) by using a Object.create() method.
+functions can be pass as parameters.
+functions can be returned from another function.
+a function that invokes an another function is called as a call back function.
+IFFI --> instead of creting a function to limit the scope of the variables outside best was is by just creating an iffi (function(name) {console.log(name)})().
+Closures: An inner function has access to the variables of the outside function even if the outer function is returned (functions that return functions..)
+if this is not pointed to an object then it refers to the window object.
+CALL METHOD ---> for example john has a method which uses this to display its fiends. but you want to call the john method but set this to different object the use this method.
+example: john.presentation.call(avinashobj,parameters)
+APPLY METHOD ---> use this if the arguments are array.
+BIND METHOD ---> is used same as above but only a subset of parameters set initially..
